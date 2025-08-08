@@ -1,6 +1,6 @@
 //para gerar uma lista deve-se usar colchetes
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -29,7 +29,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1','Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
 }
 
 //a função deve ser chamada fora de onde foir criada, para que possa ser executada, pois criar a função é diferente de ativá-la
